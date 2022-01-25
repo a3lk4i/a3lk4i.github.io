@@ -1,0 +1,139 @@
+baseURL = "https://a3lk4i.github.io/"
+
+defaultContentLanguage = "en"
+
+languageCode = "en"
+title = "a3lk4i"
+
+theme = "LoveIt"
+enableEmoji = true
+
+[author]
+  name = "Akhil"
+
+[params]
+  version = "0.2.X"
+  defaultTheme = "dark"
+
+  dateFormat = "2006-01-02"
+
+  gitRepo = "https://github.com/a3lk4i"
+
+  [params.footer]
+    enable = true
+    hugo = true
+    copyright = true
+    author = true
+  
+  [params.section]
+    paginate = 20
+    dateFormat = "01-02"
+    rss = 10
+  
+  [params.list]
+    paginate = 20
+    dateFormat = "01-02"
+    rss = 10
+  
+  [params.home]
+    rss = 10
+    
+    [params.home.profile]
+      enable = true
+      title = "Akhil Kavuri"
+      subtitle = "My personal website & blog"
+      avatarURL = ""
+      typeit = true
+      social = true
+      disclaimer = ""
+    
+    [params.home.about]
+      enable = true
+    
+    [params.home.posts]
+      enable = true
+      paginate = 6
+      defaultHiddenFromHomePage = false
+  
+  [params.social]
+    GitHub = "a3lk4i"
+    Twitter = "a3lk4i"
+    Linkedin = "akhil-kavuri"
+  
+  [params.page]
+    hiddenFromHomePage = false
+    hiddenFromSearch = false
+    twemoji = false
+    lightgallery = false
+    ruby = true
+    fraction = true
+    fontawesome = true
+    linkToMarkdown = true
+    rssFullText = false
+    
+    [params.page.code]
+      copy = true
+      maxShownLines = 10
+    
+    [params.page.share]
+      enable = true
+      Twitter = true
+    
+    [params.page.comment]
+      enable = true
+      [params.page.comment.disqus]
+        enable = false
+        shortname = ""
+  
+  [params.typeit]
+    speed = 100
+    cursorSpeed = 1000
+    cursorChar = "|"
+    duration = -1
+
+  [params.verification]
+    google = ""
+
+[menu]
+  
+  [[menu.main]]
+    identifier = "posts"
+    pre = ""
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    title = ""
+    weight = 1
+  
+  [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+    weight = 2
+  
+  [[menu.main]]
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "About"
+    url = "/about/"
+    title = ""
+    weight = 3
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      unsafe = true
