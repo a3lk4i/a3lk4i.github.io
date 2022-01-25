@@ -10,8 +10,7 @@ I'm Akhil, a software architect / developer from India, living in Bangalore.
 
 On this page, you'll find some of my interests and my personal blog.
 I plan to mostly write about the technologies that interest me the most like kubernetes, serverless, 
-distributed computing or programming languages like go and occasionally about lifestyle choices like minimalism, FIRE,
-privacy.
+distributed computing, go and occasionally about lifestyle choices like minimalism, FIRE, privacy.
 
 ##### Passionate about...:fire: {#passions}
 
