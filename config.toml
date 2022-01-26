@@ -82,8 +82,8 @@ enableEmoji = true
     [params.page.comment]
       enable = true
       [params.page.comment.disqus]
-        enable = false
-        shortname = ""
+        enable = true
+        shortname = "a3lk4i"
   
   [params.typeit]
     speed = 100
