@@ -2,6 +2,9 @@
 title: "About"
 date: 2022-01-25T18:03:11+05:30
 draft: false
+
+comment:
+  enable: false
 ---
 
 ##### Hey there :wave: {#hey}

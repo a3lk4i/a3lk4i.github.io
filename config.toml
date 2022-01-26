@@ -19,6 +19,8 @@ enableEmoji = true
 
   gitRepo = "https://github.com/a3lk4i"
 
+  keywords = ["Akhil Kavuri", "a3lk4i"]
+
   [params.footer]
     enable = true
     hugo = true
